@@ -26,4 +26,4 @@ Thank You!!!
 
 # Screen Shot of Deployed index page
 
-![alt text](./assets/03_password_generator.png "Deployed Index Screen Shot")
+![alt text](./03_password_generator.png "Deployed Index Screen Shot")
