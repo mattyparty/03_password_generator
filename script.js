@@ -19,7 +19,7 @@ generateBtn.addEventListener("click", writePassword);
 //Begin Matt's Code
 function generatePassword(){
   //prompt user for password length 
-   passwordlength= prompt("How Many Charecters do you want your password to be? It must be between 8-128Long")
+   passwordlength= prompt("How Many Characters do you want your password to be? It must be between 8-128 Long")
   //determine if password is a number
    if(!isNaN(passwordlength)){    
            } else alert("That's Not a number, Please enter a number");

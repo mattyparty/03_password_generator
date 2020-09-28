@@ -26,4 +26,4 @@ Thank You!!!
 
 # Screen Shot of Deployed index page
 
-![alt text](./03_password_generator.png "Deployed Index Screen Shot")
+![Password Generator Screen Shot](https://raw.githubusercontent.com/mattyparty/03_password_generator/main/03_password_generator.png)
