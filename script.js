@@ -19,22 +19,22 @@ generateBtn.addEventListener("click", writePassword);
 //Begin Matt's Code
 function generatePassword(){
   //prompt user for password length 
-   passwordlength= prompt("How Many Charecters do you want your password to be?")
+   passwordlength= prompt("How Many Charecters do you want your password to be? It must be between 8-128Long")
   //determine if password is a number
    if(!isNaN(passwordlength)){    
-           } else alert("Thats Not a Number");
+           } else alert("That's Not a number, Please enter a number");
 
    //alert if password is less than 8         
     if(passwordlength<8){
-       alert("Brah, Thats not a Long Enough Password");
+       alert("You know that password isn't long enough");
                         } 
-   //alert if password is greater then 160                       
-    if(passwordlength>160){8
-        var toolong=passwordlength-160
+   //alert if password is greater then 128                      
+    if(passwordlength>128){
+        var toolong=passwordlength-128
         alert("Daaaayyumm, That Password is " + toolong + " digits too long!" )
                         }
 //     // password options selection
-     if(passwordlength<=160 && passwordlength>=8 && !isNaN(passwordlength)) {                   
+     if(passwordlength<=128 && passwordlength>=8 && !isNaN(passwordlength)) {                   
            var lowercase = confirm("Do you Want Lower Case?")
             var specialcharecters = confirm("Do you Want Special Characters?")
            var numbers = confirm("Do you Want Numbers?")
